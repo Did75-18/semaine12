@@ -1,0 +1,78 @@
+html{
+	font-size: 62.5%;
+}
+body {
+	font-size: 1.5rem;
+	color: #666666;
+  	font-family: 'Roboto',Helvetica, sans-serif;
+}
+
+.case {
+	height: 12rem;
+	width:  12rem;
+	background-color: rgba(246, 246, 246, 0.7);
+	border: 0.05rem black solid;
+	margin: 0.1rem;
+}
+
+#jeu{
+	cursor: pointer;
+}
+
+.joueur1 {
+	background-image: url('../images/vert.png');
+}
+
+.joueur2 {
+	background-image: url('../images/rouge.png');
+}
+
+#playAgain {
+	width: 98%;
+	margin: 1rem auto;
+}
+
+.centre{
+	width: 30%;
+	margin: 0.5rem auto;
+}
+
+h1{
+	margin-top: 0.5rem;
+}
+
+.jumbotron {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+
+@media all and (max-width:992px) {
+  
+  .case {
+	height: 10rem;
+	width:  10rem;
+	}
+	.joueur1 {
+	background-image: url('../images/vert1.png');
+	}
+
+.joueur2 {
+	background-image: url('../images/rouge1.png');
+	}
+
+}
+
+@media all and (max-width:768px) {
+  .case {
+	height: 8rem;
+	width:  8rem;
+	}
+	.joueur1 {
+	background-image: url('../images/vert2.png');
+}
+
+	.joueur2 {
+	background-image: url('../images/rouge2.png');
+}
+}
