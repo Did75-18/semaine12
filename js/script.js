@@ -91,3 +91,54 @@ $(function(){
 		}
 	})
 });
+
+
+
+//////////
+
+/*var gagne(joueur){
+	
+	if( 
+			(($("#x1y1").hasClass(joueur) && ($("#x2y1").hasClass(joueur) && ($("#x3y1").hasClass(joueur)))
+			|| (($("#x1y2").hasClass(joueur)) && ($("#x2y2").hasClass(joueur)) && ($("#x3y2").hasClass(joueur)))
+			|| (($("#x1y3").hasClass(joueur)) && ($("#x2y3").hasClass(joueur)) && ($("#x3y3").hasClass(joueur)))
+                        || (($("#x1y1").hasClass(joueur)) && ($("#x1y2").hasClass(joueur)) && ($("#x1y3").hasClass(joueur)))
+                        || (($("#x2y1").hasClass(joueur)) && ($("#x2y2").hasClass(joueur)) && ($("#x2y3").hasClass(joueur)))
+                        || (($("#x3y1").hasClass(joueur)) && ($("#x3y2").hasClass(joueur)) && ($("#x3y3").hasClass(joueur)))
+			|| (($("#x1y1").hasClass(joueur)) && ($("#x2y2").hasClass(joueur)) && ($("#x3y3").hasClass(joueur)))
+			|| (($("#x3y1").hasClass(joueur)) && ($("#x2y2").hasClass(joueur)) && ($("#x1y3").hasClass(joueur)))
+
+		) {
+            alert( joueur + " a gagné !");
+        	$('.case').removeClass(joueur);
+			select = 0;
+
+		}
+	
+}*/
+
+
+/// Cas 1 Verifier horiz
+
+/*var verifHorizontales = function(joueur){
+for (y = 1; y <= 3; y++) {
+	for (x = 1; x <= 3; x++) { 
+	   if ($("#x"+x+"y"+y).hasClass(joueur)){
+	   	
+	   }
+	} 
+}
+}*/
+
+
+/// Cas 2 Verifier vertica
+/*var verifVerticales = function(joueur){
+for (x = 1; x <= 3; x++) {
+	for (y = 1; y <= 3; y++) { 
+	   if ($("#x"+x+"y"+y).hasClass(joueur)){
+	   	
+	   }
+	} 
+}
+}
+*/
